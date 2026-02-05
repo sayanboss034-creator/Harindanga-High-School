@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<head>
+<title> Harindanga High School</title>
+</head>
+<body>
+<font Face="Baskerville Old Face" size="6" color="black"><b><h1><p align="center"> Harindanga High school(H.S.)</P></h1> </b></font>
+<font Face="arial" Size="5" >
+<P ALIGN="center">
+(co-education)
+<br>
+P.O.-Chaberia,P.S-Falta,Dist-South 24 Parganas
+<br>
+Telephone No.9002706498
+<br>
+website-https://www.harindangahighschool.org.in/
+<br>
+E-mail ID-harindangahighschool.hs@gmail.com
+</p>
+</font>
+<br>
+<h1>
+<p align="center">
+<b><U>APPLICATION FROM FOR ADMISSION</u></b>
+</p>
+<P align="center"><b>TO CLASS XI</B></p>
+</H1>
+<form>
+<style>
+.photo{
+  width:2.5cm;
+  height:3.5cm;
+  border:2px solid #000;
+  float:right;
+  position:relative;
+  font-size:10px;
+  text-align:center;
+}
+.photo span{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.photo input{
+  width:100%;
+  height:100%;
+  opacity:0;
+  cursor:pointer;
+}
+.photo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+</style>
+<div class="photo">
+<span>3.5 × 2.5 cm<br>Passport<br>Photo</span>
+<input type="file"accept="image/*"
+onchange="this.parentNode.innerHTML='<img src='+URL.createObjectURL(this.files[0])+'>'">
+</div>
+1.Candidate's Name:<input type="text"style="border:none; border-bottom:1px solid black;width:200px;">
+<br><br>
+2.(a)Nationality:<input type="text"style="border:none;border-bottom:1px solid black; width:200px;">(b)Religion:<input type="text"style="border:none;border-bottom:1px solid black; width:200px;">(c)Sex:<input type="radio"name="sex"value="male">Male
+<input type="radio"name="sex" value="Female">Female<br><br>
+(d)(i)Whether Scheduled Caste/Tribe/OBC:<input type="text" style="border:none;border-bottom:1px solid black;width:200px;">(ii)Sub Caste:<input type="text"style="border:none;border-bottom:1px solid black;width:200px;">(iii)BPL Score:<input type="text"style="border:none;border-bottom:1px solid black;width:200px;">
+<br><br>
+(e)Whether Physically Challenged(i)Yes(ii)no.If yes then Percentage:<input type="text" style="border:none;border-bottom: 1px solid black;width:200px;">
+<br><br>
+(f)Candidate's date of birth(as per birth certificate):<input type="text"style="border:none;border-bottom:1px solid black; width:200px;">
+<br><br>
+(g)Age:<input type="text"style="border:none;border-bottom:1px solid black;width:200px;">
+<br><br>
+3.(a)Fathers Name:<input type="text"style="border:none;border-bottom:1px solid black;width:200px;">Education qualification:<input type="text"name="Address"style="border: none;border-bottom:1px solid black;width:200px;"> Occupation:<input type="text"style="border:none;border-bottom: 1px solid black;width:200px;">
+<br><br>
+(b)Mothers name:<input type="text"style="border:none;border-bottom:1px solid black;width:200px;">Educatin qulification"<input type="text"name="address"style="border: none;border-bottom:1px solid black;width:200px;"> Occupation:<input type="text" style="border:none;border-bottom: 1px solid black;width:200px;">
+<br><br>
+(C)Guardian's Name:<input type="text"style="border:none;border-bottom:1px solid black; width:200px;">Education qulification:<input type="text" name="address"style="border: none;border-bottom:1px solid black;width:200px;"> Occupation"<input type="text" style="border:none;border-bottom: 1px solid black;width:200px;">
+<br><br>
+(d)Adress (in block letters):
+VILLAGE:<input type="text"name="Village"style="border:none; border-bottom:1px solid black;width:200px;">
+<BR><br>
+POST OFFICE:<input type="text"name="post office"style="border: none;border-bottom:1px solid black;width:200px;">POLICE STATION:<input type="text"style="border:none;border-bottom: 1px solid black;width:200px;">
+<BR><br>
+DISTRICT:<input type="text"name="district"required style="border:none;border-bottom:1px solid black; width:200px;"> PIN CODE NO:<input type="text"name="pimcode"pattern="[0-9]{6}" maxlength="6"required style="border:none;border-bottom:1px solid black;width:200px;">
+<BR><br>
+PHONE NO(Mandatory):<input type="tel"name="mobile"pattern="[0-9]{10}"maxlength="10"required style="border:none;border-bottom:1px solid black;width:200px;AADHAARNO(Mendatory):<input type="text"name="aadhaar"inputmode="numeric"pattern="[0-9]{12}" maxlength="12"required style="border:none;border-bottom:1px solid black;width:200px;"> 
+<br><br>
+4.Passed Madhyamik Pariksha in this year...
+<br><br>
+5.Subjects which Marks with Grade :
+<style>
+body{
+  font-family: Arial;
+}
+
+/* TABLE STYLE ONLY */
+table{
+  width:100%;
+  border-collapse: collapse;
+  margin-bottom:15px;
+}
+table, th, td{
+  border:1px solid black;
+}
+th, td{
+  padding:6px;
+  text-align:left;
+}
+
+/* INPUT STYLE */
+input[type=number], input[type=text]{
+  width:95%;
+  border:none;
+  border-bottom:1px solid #000;
+  outline:none;
+}
+</style>
+
+<!-- ===== Result Summary (NO BORDER BOX) ===== -->
+<b>Madhyamik Result Summary</b><br>
+Total Marks: <span id="totalMarks">0</span> / 700<br>
+Percentage: <b><span id="percent">0%</span></b>
+
+<br><br>
+
+<!-- ===== 5. SUBJECTS WISE MARKS (TABLE ONLY) ===== -->
+<b>5. Subjects wise Marks</b>
+
+<table>
+<tr>
+  <th>Subject</th>
+  <th>Marks</th>
+</tr>
+<tr><td>Bengali</td><td><input type="number" class="m" min="0" max="100"oninput="calc()"></td></tr>
+<tr><td>English</td><td><input type="number" class="m"min="0" max="100" oninput="calc()"></td></tr>
+<tr><td>Math</td><td><input type="number" class="m" min="0" max="100"oninput="calc()"></td></tr>
+<tr><td>Physical Science</td><td><input type="number" class="m" oninput="calc()"></td></tr>
+<tr><td>Life Science</td><td><input type="number" class="m" min="0" max="100"oninput="calc()"></td></tr>
+<tr><td>History</td><td><input type="number" class="m"min="0" max="100" oninput="calc()"></td></tr>
+<tr><td>Geography</td><td><input type="number" class="m" min="0" max="100"oninput="calc()"></td></tr>
+</table>
+
+<!-- ===== 6–9 NORMAL FORM TEXT (NO TABLE) ===== -->
+<b>6.</b> Name of the School last attended:
+<input type="text"style="border:none;border-bottom:1px solid black;width:200px;"><br><br>
+
+<b>7.</b> Two attested copies of Madhyamik Marksheet submitted (Yes/No):
+<input type="text"style="border:none;border-bottom:1px solid black;width:200px;"><br><br>
+
+<b>8.</b> Character Certificate submitted (Yes/No):
+<input type="text"style="border:none;border-bottom:1px solid black;width:200px;"><br><br>
+
+<b>9.</b> Madhyamik Admit Card Roll:<input type="text"style="border:none;border-bottom:1px solid black;width:200px;">No:<input type="text"style="border:none;border-bottom:1px solid black;width:200px;">
+
+<br><br>
+
+<!-- ===== 10. STREAM CHOICE TABLE ===== -->
+<b>10. Stream Choice (Eligibility Based)</b>
+
+<table>
+<tr>
+  <th>Stream</th>
+  <th>Select</th>
+</tr>
+<tr>
+  <td>Humanities (50%+)</td>
+  <td><input type="radio" name="stream" id="arts" disabled></td>
+</tr>
+<tr>
+  <td>Science (60%+)</td>
+  <td><input type="radio" name="stream" id="science" disabled></td>
+</tr>
+<tr>
+  <td>Commerce (All)</td>
+  <td><input type="radio" name="stream"></td>
+</tr>
+</table>
+
+<script>
+function calc(){
+  let total = 0;
+
+  document.querySelectorAll(".m").forEach(i=>{
+    if(i.value < 0) i.value = 0;
+    if(i.value > 100) i.value = 100;
+    total += Number(i.value) || 0;
+  });
+
+  let percent = (total/700)*100;
+
+  document.getElementById("totalMarks").innerText = total;
+  document.getElementById("percent").innerText = percent.toFixed(2)+"%";
+
+  let arts = document.getElementById("arts");
+  let science = document.getElementById("science");
+
+  arts.disabled = true;
+  science.disabled = true;
+  arts.checked = false;
+  science.checked = false;
+
+  if(total >= 315) arts.disabled = false;
+  if(total >= 420) science.disabled = false;
+}
+</script><P align="left">
+<input type="submit" value="Submit"
+style="padding:15px 40px; font-size:15px;
+font-weight:bold; cursor:pointer;">
+</p>
+</form>
+</body>
+</html>
